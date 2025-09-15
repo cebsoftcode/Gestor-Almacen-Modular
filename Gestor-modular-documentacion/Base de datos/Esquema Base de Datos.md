@@ -1,0 +1,1 @@
+Este proyecto cuenta con un esquema de base de datos peculiar, ya que pretende proporcionarle al usuario la capacidad de crear tablas en base a sus necesidades. Por lo que, al estar usando un backend de Spring y JPA para acceder a la base de datos, se nos complica poder implementar esta función. Por ello, hemos optado por hacer la siguiente [[Esquema BD.canvas|estructura]]:

@@ -1,8 +1,8 @@
 package com.example.demo;
 
-import com.example.demo.model.UsersModel;
-import com.example.demo.repository.UsersRepository;
-import com.example.demo.service.UsersService;
+import Model.UsersModel;
+import Repository.UsersRepository;
+import Service.UsersService;
 import java.util.List;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;

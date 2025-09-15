@@ -5,6 +5,7 @@
 package Repository;
 
 import Model.FilasTablas;
+import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
@@ -12,5 +13,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * @author bolor
  */
 public interface FilasTablasRepository extends JpaRepository<FilasTablas, Object>{
+    
+    List<FilasTablas> findByTabla (Integer tabla);
     
 }

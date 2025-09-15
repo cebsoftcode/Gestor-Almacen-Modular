@@ -23,7 +23,7 @@ public class UsersService {
     @Autowired
     private UsersRepository userRepository;
 
-    private static final Logger logger = LoggerFactory.getLogger("UsersRepository");
+    private static final Logger logger = LoggerFactory.getLogger("UsersService");
 
     public List<UsersModel> getAllUsers() {
         return userRepository.findAll();

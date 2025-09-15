@@ -13,4 +13,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
  */
 public interface TablasRepository extends JpaRepository<Tablas, Object>{
     
+    Tablas findByNombre(String nombre);
 }
